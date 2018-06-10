@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "watch": "node_modules/webpack/bin/webpack.js --mode development --watch-stdin --progress"
+    "watch": "node_modules/webpack/bin/webpack.js --mode development --watch --progress --color"
   },
   "devDependencies": {
     "ts-loader": "^4.4.1",
