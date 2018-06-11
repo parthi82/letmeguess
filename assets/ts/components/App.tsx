@@ -1,10 +1,13 @@
-import React from 'react';
+import * as React from 'react';
+import AppBar from '@material-ui/core/AppBar';
 
-interface PropsType {}
+interface AppProps {}
 
-class App extends React.Component<PropsType, {}> {
+class App extends React.Component<AppProps, {}> {
     render() {
-        return <h1>Letmeguess</h1>;
+        return (
+          <AppBar>Letmeguess</AppBar>
+        );
     }
 }
 

@@ -1,11 +1,19 @@
 {
     "compilerOptions": {
-      "module": "es6",
+      "module": "commonjs",
       "target": "es5",
-      "sourceMap": true,
       "jsx": "react",
-      "allowSyntheticDefaultImports": true,
-
+      "inlineSourceMap": true,
+      "inlineSources": true,   
+      "experimentalDecorators": true,  
+      "emitDecoratorMetadata": true,
+      "lib": [
+        "es5",
+        "es6",
+        "es7",
+        "es2017",
+        "dom"
+      ],
       /* Strict Type-Checking Options */        
       "strict": true,                       
       "noImplicitAny": true,                
