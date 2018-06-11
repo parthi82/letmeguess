@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "module": "es6",
+      "target": "es5",
+      "sourceMap": true,
+      "jsx": "react",
+      "allowSyntheticDefaultImports": true,
+
+      /* Strict Type-Checking Options */        
+      "strict": true,                       
+      "noImplicitAny": true,                
+      "strictNullChecks": true,             
+      "noImplicitThis": true,                
+      "alwaysStrict": true,                
+      "noUnusedLocals": true,                
+      "noUnusedParameters": true,            
+      "noImplicitReturns": true,             
+      "noFallthroughCasesInSwitch": true
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }
