@@ -6,6 +6,6 @@ const Index = () => {
 };
 
 ReactDOM.render(
-  <Index />,
+  <Index/>,
   document.getElementById('app')
 );
