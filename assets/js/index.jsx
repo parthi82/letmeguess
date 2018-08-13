@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const Index = () => <div>Letmeguess</div>;
-
+import Canvas from './components/Canvas';
 
 ReactDOM.render(
-  <Index />,
+  <Canvas />,
   document.getElementById('app'),
 );
